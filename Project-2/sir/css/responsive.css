@@ -1,0 +1,285 @@
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Menu part start */
+    .main_menu .navbar-brand img{
+        width: 120px;
+    }
+    .main_menu {
+        padding: 20px 0;
+    }
+    .main_menu ul {
+        gap: 15px;
+        text-align: center;
+    }
+    .menu_button{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    /* Menu part end */
+    /* Banner part start */
+    .banner_text h1 {
+        font-size: 26px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .banner_text p {
+        line-height: 25px;
+        width: 100%;
+    }
+    .banner_button a {
+        padding: 10px 26px;
+    }
+    .banner_booking {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner_booking button {
+        padding: 10px 50px;
+    }
+    #banner {
+        padding: 50px 0 50px;
+    }
+    /* Banner part end */
+    /* Benifite part start */
+    #benefit {
+        padding: 60px 0;
+    }
+    .com_heading h2 {
+        font-size: 30px;
+    }
+    .com_heading p {
+        font-size: 16px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .benefit_item {
+        padding: 20px;
+        text-align: center;
+    }
+    .benefit_img {
+        padding: 10px 15px;
+        margin: 0 auto;
+    }
+    .benefit_item p{
+        margin: 0 auto;
+    }
+   
+    /* Benifite part end */
+    /* Destination part start */
+    #destination {
+        padding-bottom: 60px;
+    }
+    .destination_slide .slide_item > p {
+        width: 100%;
+    }
+    /* Destination part end */
+    /* Counter part start */
+    #counter {
+        padding: 60px 0;
+    }
+    .counter_text h2 {
+        font-size: 30px;
+    }
+    .counter_text p {
+        line-height: 25px;
+        width: 100%;
+    }
+    .counter_text ul {
+        display: flex;
+        justify-content: start;
+        margin-top: 10px;
+    }
+    .counter_item.margin{
+        margin-top: 30px;
+    }
+    .counter_item {
+        padding: 20px 20px;
+        text-align: center;
+    }
+    .counter_icon {
+        padding: 11px 15px;
+        margin: 0 auto;
+    }
+    /* Counter part end */
+    /* Select dest part start */
+    #selected_dest {
+        padding: 60px 0;
+    }
+    .dest_text h2 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .dest_text p {
+        width: 100%;
+    }
+    .dest_img {
+        margin-top: 30px;
+    }
+    .promo_text .dest_text {
+        margin-top: 60px;
+    }
+    .promo_event .dest_img {
+        margin-top: 60px !important;
+    }
+    /* Select dest part end */
+    /* Menu part start */
+    .explore_menu button {
+        padding: 10px 20px;
+        margin-top: 0;
+    }
+    .explore_menu .nav-tabs {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    /* Menu part start */
+    .main_menu .navbar-brand img{
+        width: 120px;
+    }
+    .main_menu {
+        padding: 20px 0;
+    }
+    .main_menu ul {
+        gap: 15px;
+        text-align: center;
+    }
+    .menu_button{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    /* Menu part end */
+    /* Banner part start */
+    .banner_text h1 {
+        font-size: 26px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .banner_text p {
+        line-height: 25px;
+        width: 100%;
+    }
+    .banner_button a {
+        padding: 10px 26px;
+    }
+    .banner_booking {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner_booking button {
+        padding: 10px 50px;
+    }
+    #banner {
+        padding: 50px 0 50px;
+    }
+    /* Banner part end */
+    /* Benifite part start */
+    #benefit {
+        padding: 60px 0;
+    }
+    .com_heading h2 {
+        font-size: 30px;
+    }
+    .com_heading p {
+        font-size: 16px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .benefit_item {
+        padding: 20px;
+        text-align: center;
+    }
+    .benefit_img {
+        padding: 10px 15px;
+        margin: 0 auto;
+    }
+    .benefit_item p{
+        margin: 0 auto;
+    }
+   
+    /* Benifite part end */
+    /* Destination part start */
+    #destination {
+        padding-bottom: 60px;
+    }
+    .destination_slide .slide_item > p {
+        width: 100%;
+    }
+    /* Destination part end */
+    /* Counter part start */
+    #counter {
+        padding: 60px 0;
+    }
+    .counter_text h2 {
+        font-size: 30px;
+    }
+    .counter_text p {
+        line-height: 25px;
+        width: 100%;
+    }
+    .counter_text ul {
+        display: flex;
+        justify-content: start;
+        margin-top: 10px;
+    }
+    .counter_item.margin{
+        margin-top: 30px;
+    }
+    .counter_item {
+        padding: 20px 20px;
+        text-align: center;
+    }
+    .counter_icon {
+        padding: 11px 15px;
+        margin: 0 auto;
+    }
+    /* Counter part end */
+    /* Select dest part start */
+    #selected_dest {
+        padding: 60px 0;
+    }
+    .dest_text h2 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .dest_text p {
+        width: 100%;
+    }
+    .dest_img {
+        margin-top: 30px;
+    }
+    .promo_text .dest_text {
+        margin-top: 60px;
+    }
+    .promo_event .dest_img {
+        margin-top: 60px !important;
+    }
+    /* Select dest part end */
+    /* Menu part start */
+    .explore_menu button {
+        padding: 10px 20px;
+        margin-top: 0;
+    }
+    .explore_menu .nav-tabs {
+        gap: 10px;
+    }
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+    /* Menu part start */
+    /* Menu part end */
+}
