@@ -1,16 +1,20 @@
-// Filter-plugin start
-var mixer = mixitup('.filter_plugin');
-// Filter-plugin end
-
-
-// Progressbar part start
-$(document).ready(function(){
-    $(".progress-bar").ProgressBar();
+$('.popular_slider').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    arrows: false,
+    centerMode: true,
+    centerPadding: 0,
   });
-// Progressbar part end
-
-// Slick slider start
-$('.testimonial_slider').slick({
+// Counter part start
+$('.count').counterUp({
+  delay: 10,
+  time: 1000
+});
+// Counter part end
+// Testimonial slider start 
+$('.testi_slide').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: false,
@@ -18,4 +22,4 @@ $('.testimonial_slider').slick({
   dots: true,
   arrows: false,
 });
-// Slick slider end
+// Testimonial slider end

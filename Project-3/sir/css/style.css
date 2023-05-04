@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.common_heading {
+    text-align: center;
+}
+
+.common_heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.common_heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    font-family: 'Poppins', sans-serif;
+    width: 690px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+/* ==================
+    Common css end
+=================== */
+/* ==================
+    Menu part start
+=================== */
+.main_menu {
+    padding: 40px 0 !important;
+}
+
+.main_menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161 !important;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 !important;
+}
+
+.main_menu ul {
+    gap: 50px;
+}
+
+.menu_button a {
+    padding: 16px 35px;
+    background: #007F5F;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+}
+
+.menu_button a:hover {
+    transform: scale(1.1);
+}
+
+/* ==================
+    Menu part end
+=================== */
+/* ==================
+  Banner part start
+=================== */
+#banner {
+    padding: 140px 0 122px;
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.40);
+    z-index: -1;
+}
+
+.banner_text h1 {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 80px;
+    width: 573px;
+}
+
+.banner_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    width: 573px;
+    padding: 30px 0 40px;
+}
+
+.banner_button a {
+    padding: 16px 35px;
+    background: #007F5F;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+}
+
+.banner_button a:hover {
+    transform: scale(1.1);
+}
+
+.banner_location {
+    padding: 35px 25px;
+    background: #fff;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    width: fit-content;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    margin-top: 60px;
+}
+
+.location_items h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #292929;
+    line-height: 26px;
+}
+
+.location_items h3 span {
+    margin: 0 20px 0 10px;
+}
+
+.location_items input {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #6A6A6A;
+    line-height: 26px;
+    margin-left: 26px;
+}
+
+.banner_location button {
+    border: none;
+    padding: 30px;
+    background: #007F5F;
+    color: #fff;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+/* ==================
+  Banner part end
+=================== */
+/* ==================
+    Travel part start
+=================== */
+#travel {
+    padding: 150px 0;
+}
+
+.travel_item {
+    padding: 63px 61px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.travel_item:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 11px -6px rgb(0 0 0 / 75%);
+}
+
+.travel_icon {
+    padding: 18px 24px;
+    background: rgba(0, 127, 95, 0.10);
+    width: fit-content;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.travel_item h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #1E1E1E;
+    margin: 40px 0 20px;
+}
+
+.travel_item p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #616161;
+}
+
+/* ==================
+    Travel part end
+=================== */
+/* ==================
+Destination part start
+=================== */
+#destination {
+    padding-bottom: 150px;
+}
+
+.slide_img {
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    overflow: hidden;
+}
+
+.dest_slide .slide_item {
+    padding: 20px 20px 42px;
+    margin: 10px 0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.slide_item ul {
+    display: flex;
+    gap: 6px;
+    margin: 37px 0 17px !important;
+}
+
+.slide_item ul li i {
+    color: #E0E0E0;
+}
+
+.slide_item ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #FF8B00;
+    line-height: 30px;
+}
+
+.slide_button a {
+    padding: 16px 35px;
+    background: #007F5F;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .3s;
+    margin-top: 40px;
+}
+
+.slide_button a:hover {
+    transform: scale(1.1);
+}
+
+.slide_item .pera {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #616161;
+    margin: 20px 0;
+}
+.dest_slide .slick-center {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 11px -6px rgb(0 0 0 / 75%);
+}
+.dest_slide .slick-center .slide_button a{
+    background: transparent;
+    border: 1px solid #007F5F;
+    color: #007F5F;
+}
+
+/* ==================
+Destination part end
+=================== */
+/* ==================
+    Menu part start
+=================== */
+/* ==================
+    Menu part end
+=================== */
+/* ==================
+    Menu part start
+=================== */
+/* ==================
+    Menu part end
+=================== */
